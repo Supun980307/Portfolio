@@ -13,6 +13,10 @@
   box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
 }
 
+.btn-work{
+  min-width: fit-content;
+}
+
 .btn:hover {
   background: linear-gradient(
     92.23deg,
@@ -39,6 +43,16 @@
   padding: 1rem;
   border-radius: 100%;
 }
+
+.bg-about{
+  background-image: none;
+}
+
+#Logo{
+  width: 20%;
+}
+
+
 
 @layer base {
   body {
